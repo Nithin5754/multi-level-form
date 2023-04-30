@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  
+  
+  
+  <title>Frontend Mentor | Multi-step form</title>
+  
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <!-- Sidebar start -->
+  <section>
+  <div class="container">
+    <div class="multiStepWrapper" id="multiStepWrapper">
+      <div class="sideBar">
+        <div class="sidebar-step">
+          <div class="step-sidebar">
+            <p class="bar">1</p>
+          </div>
+          <div class="sideBar-step-info">
+            <h5>step-1</h5>
+            <h3>your info</h3>
+          </div>
+        </div>
+        <div class="sidebar-step">
+          <div class="step-sidebar">
+            <p class="bar">2</p>
+          </div>
+          <div class="sideBar-step-info">
+            <h5>step-2</h5>
+            <h3>contact info</h3>
+          </div>
+        </div>
+        <div class="sidebar-step">
+          <div class="step-sidebar">
+            <p class="bar">3</p>
+          </div>
+          <div class="sideBar-step-info">
+            <h5>step-3</h5>
+            <h3>choose password</h3>
+          </div>
+        </div>
+        
+        <div class="sidebar-step">
+          <div class="step-sidebar">
+            <p class="bar">4</p>
+          </div>
+          <div class="sideBar-step-info">
+            <h5>step 5</h5>
+            <h3>summary</h3>
+          </div>
+        </div>
+      </div>
+    
+    
+    <!-- form section start here -->
+    <form action="" id="multistep-form">
+      <div class="step step-1 active">
+        <div class="form-group">
+          <label for="fname">first name</label>
+          <input type="text" id="fname" name="first name" required>
+          <span class="error-message"></span>
+        </div>
+        <div class="form-group">
+          <label for="lname">last name</label>
+          <input type="text" id="lname" name="last-name" required>
+          <span class="error-message"></span>
+        </div>
+        <div class="form-group">
+          <label for="country">country</label>
+          <input type="text" id="country" name="last-name">
+          <span class="error-message"></span>
+        </div>
+        <input type="button" value="next page" id="next" class="next-btn">
+  
+  
+      </div>
+  <!-- step 2 -->
+  
+  
+  <div class="step step-2 ">
+  <div class="form-group">
+    <label for="email">email</label>
+    <input type="text" id="email" name="email" required>
+    <span class="error-message"></span>
+  </div>
+  <div class="form-group">
+    <label for="mobile">mobile</label>
+    <input type="number" id="mobile" name="mobile" required>
+    <span class="error-message"></span>
+  </div>
+  <div class="form-group">
+    <label for="security">Security ID</label>
+    <input type="number" id="security" name="security">
+    <span class="error-message"></span>
+  </div>
+  <input type="button" value="go back" class="back-btn">
+  <input type="button" value="next page" id="next" class="next-btn">
+ 
+  
+  
+  </div>
+  
+  
+  <!-- step-3 -->
+  <div class="step step-3 ">
+    <div class="form-group">
+      <label for="username">username</label>
+      <input type="text" id="username" name="username" required>
+      <span class="error-message"></span>
+    </div>
+    <div class="form-group">
+      <label for="password">password</label>
+      <input type="number" id="password" name="password" required>
+      <span class="error-message"></span>
+    </div>
+   
+    <input type="button" value="go back" class="back-btn">
+    <input type="button" value="confirm" id="confirm" class="confirm-btn">
+    
+    </div>
+
+ 
+  <div class="summary">
+    
+  </div>
+    
+  </div>
+  
+</form>
+</div>
+
+
+
+  </div>
+
+  </section>
+
+
+
+  <!-- Sidebar end -->
+
+  <!-- Step 1 start -->
+   
+
+  
+
+
+
+
+<!-- 
+  Next Step -->
+
+  <!-- Step 1 end -->
+
+  <!-- Step 2 start -->
+
+<!--   
+  Go Back
+  Next Step -->
+
+  <!-- Step 2 end -->
+
+  <!-- Step 3 start -->
+
+ 
+  <!-- Go Back
+  Next Step -->
+
+  <!-- Step 3 end -->
+
+  <!-- Step 4 start -->
+
+  
+
+
+
+ 
+<!-- 
+  Go Back
+  Confirm -->
+  <!-- Finishing up
+  Double-check everything looks OK before confirming. -->
+
+  <!-- Step 4 end -->
+
+  <!-- Step 5 start -->
+<!-- 
+  Thank you!
+
+  Thanks for confirming your subscription! We hope you have fun 
+  using our platform. If you ever need support, please feel free 
+  to email us at support@loremgaming.com. -->
+
+  <!-- Step 5 end -->
+  
+
+ <script src="main.js"></script>
+</body>
+</html>
